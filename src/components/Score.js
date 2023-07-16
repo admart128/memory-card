@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-const Score = ({gameStart}) => {
-
-    const [score] = useState(0);
+const Score = ({score, gameStart}) => {
 
     return (
         <div>
